@@ -1,0 +1,31 @@
+{
+  "name": "kat-api",
+  "version": "0.0.3",
+  "description": "KAT (Kickass) api wrapper with mirror fallback and advanced search parameters.",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/paulhobbel/kat-api/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "request": "^2.55.0",
+    "q": "2.0.3",
+    "urijs": "^1.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulhobbel/kat-api.git"
+  },
+  "keywords": [
+    "kat",
+    "kickass",
+    "api",
+    "torrent",
+    "json",
+    "search"
+  ],
+  "readme": "ERROR: No README data found!"
+}
