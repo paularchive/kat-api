@@ -1,7 +1,7 @@
 'use strict';
 
 var request = require('request'),
-    URI = require('URIjs'),
+    URI = require('urijs'),
     Q = require('q');
 
 var url = URI('https://kat.cr'),
