@@ -5,7 +5,7 @@ KAT (Kickass Torrent) api wrapper with mirror fallback and advanced search param
 
 #### Simple search
 
-```
+```js
 var kat = require('kat-api');
 
 kat.search('test').then(function (data) {
@@ -17,7 +17,7 @@ kat.search('test').then(function (data) {
 
 #### Advanced search
 
-```
+```js
 kat.search({
         query: 'Anger Management',
         category: 'tv',
@@ -47,8 +47,8 @@ total_results: 20578
 
 
 ##### results:
-```
-{ 0
+```json
+{ 0:
     {
         category: "TV"
         comments: 16
@@ -74,7 +74,7 @@ total_results: 20578
 
 We'll display the magnet link for the most seeded 'Anger Management' episode.
 
-```
+```js
 var kat = require('kat-api');
 kat.search({
     query: 'Anger Management',
